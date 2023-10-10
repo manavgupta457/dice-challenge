@@ -6,8 +6,8 @@ tempR=Math.floor(tempR)+1;
 //     tempR=Math.random()*6;
 //     tempR=Math.floor(tempR)+1;
 // }
-var strL="./images/dice"+tempL+".png";
-var strR="./images/dice"+tempR+".png";
+var strL="/dice"+tempL+".png";
+var strR="/dice"+tempR+".png";
 document.querySelector("body > div > div:nth-child(2) > img").setAttribute("src",strL);
 document.querySelector("body > div > div:nth-child(3) > img").setAttribute("src",strR);
 
